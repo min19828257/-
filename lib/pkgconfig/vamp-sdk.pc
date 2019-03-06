@@ -1,0 +1,10 @@
+prefix=/d/ChordDetect/vamp-plugin-sdk-2.7.1/../release_64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: vamp-sdk
+Version: 2.7.1
+Description: Development library for Vamp audio analysis plugins
+Libs: -L${libdir} -lvamp-sdk
+Cflags: -I${includedir} 
